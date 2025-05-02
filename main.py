@@ -7,8 +7,8 @@ email = os.environ.get('EMAIL')
 passwd = os.environ.get('PASSWD')
 # server酱
 SCKEY = os.environ.get('SCKEY')
-print(email)
-print(passwd)
+print('email', email)
+print('passwd', passwd)
 login_url = 'https://ikuuu.one/auth/login'
 check_url = 'https://ikuuu.one/user/checkin'
 info_url = 'https://ikuuu.one/user/profile'
